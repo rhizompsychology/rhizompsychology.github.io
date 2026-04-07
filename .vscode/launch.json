@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome with Local Server",
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Start Local Server"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome (File)",
+            "file": "${workspaceFolder}/index.html"
+        }
+    ]
+}
